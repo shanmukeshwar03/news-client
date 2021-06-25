@@ -1,0 +1,19 @@
+.header__container {
+  position: fixed;
+  top: 1rem;
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .header__container {
+    top: 0rem;
+    padding: 1rem;
+    z-index: 999;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}
